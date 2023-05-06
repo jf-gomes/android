@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "android";
+    src: url(fonts/idroid.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(fonts/poppins.ttf) format(truetype);
+}
+
+header{
+    background-image: linear-gradient(to bottom, #39cd7c, #1a5c38);
+    padding: 20px;
+    box-shadow: 0px 1px 8px 1px;
+}
+
+#principal{
+    font-family: poppins;
+    color: white;
+    text-align: center;
+}
+
+#slogan{
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#menu > a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+#menu > a:hover{
+    color: #1a5c38;
+    background-color: #2fa866;
+    border-radius: 5px;
+}
+
+body{
+    font-family: poppins;
+    margin: auto;
+    background-color: #84e1ad;
+}
+
+main{
+    background-color: white;
+    height: 100%;
+    min-width: 300px;
+    max-width: 1200px;
+    padding: 20px;
+    box-shadow: 0px 1px 5px 1px;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+}
+
+#historia{
+    font-family: android;
+    color: #1a5c38;
+    padding-left: 10px;
+}
+
+article > h2{
+    font-family: android;
+    background-image: linear-gradient(to right, #84e1ad, #84e1ac00);
+    color: #1a5c38;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #1a5c38;
+}
+
+a:hover{
+    background-color: #2fa866;
+    border-radius: 5px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#bugdroid{
+    max-width: 300px;
+}
+
+iframe{
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#listas > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
+#extratitulo{
+    font-family: poppins;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin: auto;
+    background-color: #2fa866;
+    border-radius: 10px 10px 0px 0px;
+    width: auto;
+}
+
+#mainextra{
+    background-color: #c5ebd6;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.extrap{
+    padding: 0px 15px 0px 15px;
+}
+
+footer{
+    background-color: #1a5c38;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#creditos{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
